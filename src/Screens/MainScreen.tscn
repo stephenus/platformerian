@@ -15,9 +15,9 @@ __meta__ = {
 [node name="TextureRectangle" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -22.0
+margin_left = -28.3568
 margin_top = -12.0
-margin_right = -22.0
+margin_right = -28.3568
 margin_bottom = -12.0
 expand = true
 stretch_mode = 2
@@ -30,10 +30,10 @@ anchor_left = 0.492
 anchor_top = 0.5
 anchor_right = 0.492
 anchor_bottom = 0.5
-margin_left = -228.64
-margin_top = -306.0
-margin_right = 285.36
-margin_bottom = -136.0
+margin_left = -281.613
+margin_top = -344.141
+margin_right = 232.387
+margin_bottom = -174.141
 text = "Platformerian"
 
 [node name="Menu" type="VBoxContainer" parent="."]
