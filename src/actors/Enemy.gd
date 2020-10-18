@@ -17,13 +17,11 @@ func _physics_process(delta: float) -> void:
 
 func _on_StompArea2D_area_entered(area: Area2D) -> void:
 	if area.global_position.y > stomp_area.global_position.y:
-		return
-	queue_free()
+		return	
 	die()
 
-
 func die() -> void:
-	PlayerData.score += score
+	PlayerData.score += score	
 	queue_free()
 
 func randomize_speed() -> void:
